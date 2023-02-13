@@ -46,11 +46,10 @@ ul {
     grid-template-columns: repeat(2, 1fr);
 }
 
-/* .right-row {
+.right-row {
     position: relative;
     top: 10px;
-    left: 550px;
-} */
+}
 
 .icon a i {
     color: white;
@@ -216,30 +215,13 @@ nav ul ul ul {
     letter-spacing: 2px;
     cursor: pointer;
 }
-
-/* .serch a {
-    color: #1f1f1f;
-    outline: medium none;
-    transition: 0.3s;
-    text-decoration: none;
-    background-color: #14b363;
-    border: 5px solid #14b363;
-
-} */
-
-/* .serch a i {
-    color: #e8e8e8;
-} */
-
-/* .key a {
+.Quote .key{
     position: relative;
-    left: 590px;
-} */
+    bottom: 40px;
+    left: 30px;
+}
 
-/* .main-menu {
-    margin: 0 100px;
-    font-family: sans-serif;
-} */
+
 
 .sticky-header {
     position: sticky;
