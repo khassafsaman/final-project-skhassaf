@@ -1,0 +1,41 @@
+@media(min-width:768px) and (max-width:991px){
+ body{
+        overflow-x: hidden;
+    }
+
+.header-erea .pic{
+    
+    width: 885px;
+}
+.header-top .right-row{
+    position: relative;
+    left: 50%;
+}
+.header-top .left-row{
+    position: relative;
+    left: 5%;
+}
+.middle-picture{
+    justify-content: space-between;
+}
+.counter-area{
+    padding:20px;
+    width: 885px;
+}
+.area{
+    width: 115%;
+}
+.parag-pic{
+    width: 115%;
+}
+.project-erea{
+    width: 115%;
+}
+.footer{
+    width: 115%;
+}
+.circle-bottom .box p{
+    position: relative;
+    left: 55px;
+}
+}
