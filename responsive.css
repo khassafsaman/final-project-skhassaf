@@ -1,41 +1,92 @@
-@media(min-width:768px) and (max-width:991px){
+@media(max-width:320px){
  body{
         overflow-x: hidden;
     }
 
 .header-erea .pic{
     
-    width: 885px;
+    width:100%;
 }
-.header-top .right-row{
-    position: relative;
-    left: 50%;
+.header-top{
+    display: none;
 }
-.header-top .left-row{
+.header-bottom{
+    border-bottom: none;
+}
+.sticky-header{ 
+    display:grid;
+    grid-template-rows: 4fr 3fr;
+}
+.Quote{
+    display: none;
+}
+.lego{
     position: relative;
-    left: 5%;
+    right: 60%;
 }
 .middle-picture{
-    justify-content: space-between;
+    flex-direction: column;
+    align-items: center;
 }
-.counter-area{
-    padding:20px;
-    width: 885px;
+.largest-busines{
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
-.area{
-    width: 115%;
+.parag h3{
+    font-size: 20px;
 }
-.parag-pic{
-    width: 115%;
+.parag p{
+    font-size: 10px;
 }
-.project-erea{
-    width: 115%;
+.parag ul{
+    font-size: 10px;
 }
-.footer{
-    width: 115%;
+.number{
+    flex-direction: column;
+    align-items: center;
 }
-.circle-bottom .box p{
-    position: relative;
-    left: 55px;
+.galery-colection{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
+.row-3part{
+    flex-direction: column;
+    align-items: center;
+}
+.tatall-row{
+    flex-direction: column;
+    align-items: center;
+}
+.first-parag h3{
+    font-size: 20px;
+    text-align: center;
+}
+.first-parag p{
+    font-size: 13px;
+    text-align: center;
+}
+.row-footer-top{
+    flex-direction: column;
+    align-items: center;
+}
+.col-bottom p{
+    font-size: 12px;
+    text-align:center;
+    transform: translate(-18%,1%);
+}
+
+}
+@media(min-width:320px) and (max-width:768px){
+    .navigation{
+        display: block;
+        font-size: 14px;
+    }
+    .Quote .key{
+        display: none;
+    }
+    .middle-picture{
+        justify-content: space-between;
+    }
 }
